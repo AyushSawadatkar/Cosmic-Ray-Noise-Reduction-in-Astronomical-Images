@@ -17,6 +17,7 @@ This project focuses on robust local statistics to identify impulse noise caused
 🧾 Visual noise artifact mask highlighting detected cosmic rays
 
 📊 Real-time execution statistics:
+
     Noise pixels detected
     Processing time
     Corruption percentage
@@ -159,6 +160,7 @@ Focused on practical, explainable algorithms for scientific imaging.
 📄 License
 
 This project is open for academic and educational use.
+
 
 
 
