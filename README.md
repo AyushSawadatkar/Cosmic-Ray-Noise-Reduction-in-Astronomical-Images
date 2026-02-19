@@ -5,6 +5,7 @@ A web-based computer vision application for detecting and removing cosmic ray ar
 This project focuses on robust local statistics to identify impulse noise caused by high-energy particle strikes on CCD sensors during long-exposure astrophotography.
 
 
+
 ✨ Features
 
 1.📷 Upload astronomical images directly in the browser
@@ -20,7 +21,9 @@ This project focuses on robust local statistics to identify impulse noise caused
 6.⚡ Fully client-side (no backend server required)
 
 
-🧠 Algorithm Overview
+
+🧠 Algorithm Overview:
+
 1️⃣ Preprocessing
 
 1.Converts RGB images to grayscale
@@ -51,6 +54,7 @@ This approach is robust against stars and extended objects, which do not form is
 3.Preserves underlying astronomical structures while removing noise
 
 
+
 🖼️ Application Screens
 
 1.Processing Pipeline
@@ -65,8 +69,10 @@ Visualizes isolated cosmic ray detections
      *Corruption percentage
 
 
+
      🧩 Project Structure
-     cosmic-ray-noise-reduction/
+     cosmic-ray-noise-reduction
+cosmic-ray-noise-reduction/
 │
 ├── frontend/
 │   ├── components/
@@ -91,11 +97,17 @@ Visualizes isolated cosmic ray detections
 └── .gitignore
 
 
+
+
+
+
 🚀 Getting Started
 
 Prerequisites:
+
    *Modern web browser (Chrome / Edge / Firefox)
    *No server or database required
+
 
 
    🎛️ Detection Sensitivity Guide:
@@ -110,12 +122,14 @@ Prerequisites:
 If no cosmic rays are detected, lower the threshold — this is expected for clean images.
 
 
+
 📌 Notes
 
 1.The algorithm is deterministic (no ML / training required)
 2.Designed specifically for isolated impulse noise
 3.Stars and galaxies are intentionally preserved
 4.Performance depends on image resolution
+
 
 
 📈 Future Improvements 
@@ -127,12 +141,15 @@ If no cosmic rays are detected, lower the threshold — this is expected for cle
 5.GPU acceleration via WebGL / WebGPU
 
 
+
 👨‍💻 Author
 
 Developed as a Computer Vision & Image Processing Project
 Focused on practical, explainable algorithms for scientific imaging.
 
 
+
 📄 License
 
 This project is open for academic and educational use.
+
