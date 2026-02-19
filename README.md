@@ -8,17 +8,24 @@ This project focuses on robust local statistics to identify impulse noise caused
 
 ✨ Features
 
-1. 📷 Upload astronomical images directly in the browser
+📷 Upload astronomical images directly in the browser
 
-2. 🧠 Deterministic cosmic ray detection using local median statistics
+🧠 Deterministic cosmic ray detection using local median statistics
 
-3. 🧹 Noise removal via median-based interpolation
+🧹 Noise removal via median-based interpolation
 
-4. 📊 Real-time execution statistics (noise pixels, processing time, corruption ratio)
+🧾 Visual noise artifact mask highlighting detected cosmic rays
 
-5. 🖥️ Interactive UI built with React + TypeScript + Tailwind CSS
+📊 Real-time execution statistics:
+    Noise pixels detected
+    Processing time
+    Corruption percentage
 
-6. ⚡ Fully client-side (no backend server required)
+🖥️ Interactive UI built with React + TypeScript + Tailwind CSS
+
+⚡ Fully client-side processing (no server, no database)
+
+❗ This project focuses on real image processing, not synthetic noise generation.
 
 
 
@@ -152,5 +159,6 @@ Focused on practical, explainable algorithms for scientific imaging.
 📄 License
 
 This project is open for academic and educational use.
+
 
 
